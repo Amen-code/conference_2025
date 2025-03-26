@@ -38,28 +38,63 @@ def main():
     st.write("---")
 
     st.write(" The link for the previous conference is available  [here](https://conference-hammamet.streamlit.app).")
+    st.write("---")
     # Call for Abstract 
     st.subheader(":blue[Call for Abstracts]")
     st.write("A call for abstract is open to propose a contributed talk or a poster. There are limited slots for contributed talks. The form is [here](https://forms.gle/FXaQ37w8x7CHxDL99).")
     st.error("Deadline for submission is September 5th. You will be notified about your proposed talk/poster within September 15th.")
     
     #Program
-    
     st.subheader(":blue[Program]")
     st.write("\nA full list of speakers will be available together with the program. This includes:")
     # List of speakers
     plenary_speakers = [
-        "Fred Espen Benth", "Tahir Chouli", "Abderrazek Karoui", "Antonis Papapantoleon", "Ivan Nourdin",
-        "Sebastian Kassing", "Sonia Mazzucchi", "Michael Kupper"
-    ]
+    "Abderrazek Karoui",
+    "Antonis Papapantoleon",
+    "Fred Espen Benth",
+    "Ivan Nourdin",
+    "Michael Kupper",
+    "Sebastian Kassing",
+    "Sonia Mazzucchi",
+    "Tahir Chouli"
+]
+
     
     invited_speakers = [
-        "Nacira Agram", "Griselda Deelstra", "Christa Cuchiero", "Anis Matoussi", "Chiheb Ben Hamouda", 
-        "Youssef Ouknine", "Stefania Ugolini", "Luigi Borasi", "Jean Daniel Mukam", "Stefan Tappe",
-        "Wissal Sabagh", "Max Sauerbrey", "Barbara Rudiger", "Bernt Oksendal", 
-        "Michele Vanmaele" , "Giulia Di Nunno", "Josef Teichmann", "Olfa Draouil","Astrid Hilbert","Martin Friesen","Nizar Touzi","Caroline Hillairet","Asma Khedher"
-    ]
-    Contributed_speakers = ["Mariem Abdellatif","Kaoutar Nasroallah","Mohammed Amine Jalal","Irene Ventura","Mohamed Louriki","Ihsan Arharas"]
+    "Anis Matoussi",
+    "Asma Khedher",
+    "Astrid Hilbert",
+    "Barbara Rudiger",
+    "Bernt Oksendal",
+    "Caroline Hillairet",
+    "Chiheb Ben Hamouda",
+    "Christa Cuchiero",
+    "Giulia Di Nunno",
+    "Griselda Deelstra",
+    "Jean Daniel Mukam",
+    "Josef Teichmann",
+    "Luigi Borasi",
+    "Martin Friesen",
+    "Max Sauerbrey",
+    "Michele Vanmaele",
+    "Nacira Agram",
+    "Nizar Touzi",
+    "Olfa Draouil",
+    "Stefan Tappe",
+    "Stefania Ugolini",
+    "Wissal Sabagh",
+    "Youssef Ouknine"
+]
+
+    Contributed_speakers = [
+    "Ihsan Arharas",
+    "Irene Ventura",
+    "Kaoutar Nasroallah",
+    "Mariem Abdellatif",
+    "Mohamed Louriki",
+    "Mohammed Amine Jalal"
+]
+
     # Sort the speakers alphabetically by last name
     plenary_speakers_sorted = sorted(plenary_speakers, key=lambda name: name.split()[-1])
     invited_speakers_sorted = sorted(invited_speakers, key=lambda name: name.split()[-1])
