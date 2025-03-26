@@ -37,7 +37,7 @@ def main():
     st.image('hotel.jpg', width = 600 ,output_format = "JPEG")
     st.write("---")
 
-    st.write(" The link of the previous conference is available  [here](https://conference-hammamet.streamlit.app).")
+    st.write(" The link for the previous conference is available  [here](https://conference-hammamet.streamlit.app).")
     # Call for Abstract 
     st.subheader(":blue[Call for Abstracts]")
     st.write("A call for abstract is open to propose a contributed talk or a poster. There are limited slots for contributed talks. The form is [here](https://forms.gle/FXaQ37w8x7CHxDL99).")
@@ -115,9 +115,7 @@ def main():
 
     st.subheader(":blue[Fees]")
     st.markdown(f"The conference is organised at the **[{hotel_name}]({hotel_url})**. The hotel provides all the necessary services for the event in a beautiful location. The local organisers have arranged some special rates for the days of the event for the registered participants: Full-board basis (night, breakfast, lunch, coffee breaks, dinner, transportation from Tunis airport to the hotel, excursion and conference dinner).")
-    st.subheader(":blue[Excursion ]")
-    st.markdown('We are organizing a guided excursion to the Amphitheatre of El Jem, a remarkable historical site known for its impressive Roman architecture and well-preserved condition. A professional guide will accompany the group to ensure an informative and enriching experience.The excursion will take place on Wednesday, followed by a Conference dinner in the evening. There are no additional fees for the excursion.')
-    st.image('EL Jam.jpg', width = 600 ,output_format = "JPEG")
+    
 
     st.subheader(":blue[Sponsors]")
     st.write("This event is organized by the collaboration of several universities and organizations. Financial support is also received from FWO Scientific Research Network ModSimFIE, DAAD- Deutscher Akademischer Austauschdienst with funds from the German Foreign Office and Swedish Research Council grants (2020-04697)")
@@ -135,6 +133,7 @@ def main():
     ("Josef Teichmann", "ETH Zürich"),
     ("Nizar Touzi", "New York University"),
     ("Michèle Vanmaele", "Ghent University"),
+    ("Nacira Agram", "KTH University"),
     
 ]
     for i in range(0, len(organizers), 3):
