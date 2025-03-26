@@ -63,7 +63,7 @@ def main():
     "Luigi Borasi",
     "Christa Cuchiero",
     "Griselda Deelstra",
-    "Giulia Bek Di Nunno",
+    "Giulia  Di Nunno",
     "Olfa Draouil",
     "Martin Friesen",
     "Caroline Hillairet",
