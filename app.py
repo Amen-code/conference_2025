@@ -17,6 +17,7 @@ def main():
     st.write("---")
     st.write("The conference is an occasion to bring together researchers in the beautiful Hammamet to discuss recent developments in stochastics with applications to mathematical physics and finance. The link of the previous conference is available [here](https://www.mn.uio.no/math/english/research/projects/storm/events/conferences/Stochastics%20in%20Mathematical%20Finance%20and%20Physics/).")
     # Display conference name
+    
     st.markdown("""
     
     """,unsafe_allow_html=True)
@@ -34,6 +35,9 @@ def main():
     # Display hotel image
     
     st.image('hotel.jpg', width = 600 ,output_format = "JPEG")
+    st.write("---")
+
+    st.write(" The link of the previous conference is available  [here](https://conference-hammamet.streamlit.app).")
     # Call for Abstract 
     st.subheader(":blue[Call for Abstracts]")
     st.write("A call for abstract is open to propose a contributed talk or a poster. There are limited slots for contributed talks. The form is [here](https://forms.gle/FXaQ37w8x7CHxDL99).")
