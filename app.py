@@ -53,7 +53,7 @@ def main():
     "Michael Kupper",
     "Sebastian Kassing",
     "Sonia Mazzucchi",
-    "Tahir Chouli"
+    "Tahir Choulli"
 ]
 
     
