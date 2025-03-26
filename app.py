@@ -122,20 +122,20 @@ def main():
 
     st.subheader(":blue[Organizers]")
     organizers = [
-    ("Saloua Mani Aouadi", "Tunis El Manar University"),
-    ("Giulia di Nunno", "University of Oslo"),
-    ("Olfa Draouil", "Tunis El Manar University"),
-    ("Martin Friesen", "Dublin City University"),
     ("Astrid Hilbert", "Linnaeus University"),
     ("Asma Khedher", "University of Amsterdam"),
-    ("Bernt Øksendal", "University of Oslo"),
     ("Barbara Rüdiger", "Bergische University Wuppertal"),
+    ("Bernt Øksendal", "University of Oslo"),
+    ("Giulia di Nunno", "University of Oslo"),
     ("Josef Teichmann", "ETH Zürich"),
-    ("Nizar Touzi", "New York University"),
+    ("Martin Friesen", "Dublin City University"),
     ("Michèle Vanmaele", "Ghent University"),
     ("Nacira Agram", "KTH University"),
-    
+    ("Nizar Touzi", "New York University"),
+    ("Olfa Draouil", "Tunis El Manar University"),
+    ("Saloua Mani Aouadi", "Tunis El Manar University"),
 ]
+
     for i in range(0, len(organizers), 3):
         row = organizers[i:i+3]
         col1, col2, col3 = st.columns(3)
