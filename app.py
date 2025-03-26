@@ -46,51 +46,52 @@ def main():
     st.write("\nA full list of speakers will be available together with the program. This includes:")
     # List of speakers
     plenary_speakers = [
-    "Abderrazek Karoui",
-    "Antonis Papapantoleon",
     "Fred Espen Benth",
-    "Ivan Nourdin",
-    "Michael Kupper",
+    "Tahir Choulli",
     "Sebastian Kassing",
+    "Abderrazek Karoui",
+    "Michael Kupper",
     "Sonia Mazzucchi",
-    "Tahir Choulli"
+    "Ivan Nourdin",
+    "Antonis Papapantoleon"
 ]
 
     
     invited_speakers = [
-    "Anis Matoussi",
-    "Asma Khedher",
-    "Astrid Hilbert",
-    "Barbara Rudiger",
-    "Bernt Oksendal",
-    "Caroline Hillairet",
-    "Chiheb Ben Hamouda",
-    "Christa Cuchiero",
-    "Giulia Bek Di Nunno",
-    "Griselda Deelstra",
-    "Jean Daniel Mukam",
-    "Josef Teichmann",
-    "Luigi Borasi",
-    "Martin Friesen",
-    "Max Sauerbrey",
-    "Michele Vanmaele",
     "Nacira Agram",
-    "Nizar Touzi",
+    "Chiheb Ben Hamouda",
+    "Luigi Borasi",
+    "Christa Cuchiero",
+    "Griselda Deelstra",
+    "Giulia Bek Di Nunno",
     "Olfa Draouil",
-    "Stefan Tappe",
-    "Stefania Ugolini",
+    "Martin Friesen",
+    "Caroline Hillairet",
+    "Astrid Hilbert",
+    "Asma Khedher",
+    "Anis Matoussi",
+    "Jean Daniel Mukam",
+    "Bernt Oksendal",
+    "Youssef Ouknine",
+    "Barbara Rudiger",
     "Wissal Sabagh",
-    "Youssef Ouknine"
+    "Max Sauerbrey",
+    "Josef Teichmann",
+    "Stefan Tappe",
+    "Nizar Touzi",
+    "Michele Vanmaele",
+    "Stefania Ugolini"
 ]
 
 
+
     Contributed_speakers = [
-    "Ihsan Arharas",
-    "Irene Ventura",
-    "Kaoutar Nasroallah",
     "Mariem Abdellatif",
+    "Ihsan Arharas",
+    "Mohammed Amine Jalal",
     "Mohamed Louriki",
-    "Mohammed Amine Jalal"
+    "Kaoutar Nasroallah",
+    "Irene Ventura"
 ]
 
     # Sort the speakers alphabetically by last name
