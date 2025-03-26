@@ -15,7 +15,7 @@ def main():
     st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">', unsafe_allow_html=True)
     st.markdown("Time and place: <i class='fas fa-clock'></i> Oct. 20-Oct. 24, 2025, <i class='fas fa-map-marker-alt'></i> Radisson Blue Resort Thalasso, Hammamet, Tunisia", unsafe_allow_html=True)
     st.write("---")
-    st.write("The conference is an occasion to bring together researchers in the beautiful Hammamet to discuss recent developments in stochastics with applications to mathematical physics and finance. The link of the previous conference is available [here](https://www.mn.uio.no/math/english/research/projects/storm/events/conferences/Stochastics%20in%20Mathematical%20Finance%20and%20Physics/).")
+    st.write("The conference is an occasion to bring together researchers in the beautiful Hammamet to discuss recent developments in stochastics with applications to mathematical physics and finance. The link of the previous conference is available [here](https://conference-hammamet.streamlit.app).")
     # Display conference name
     
     st.markdown("""
@@ -35,9 +35,6 @@ def main():
     # Display hotel image
     
     st.image('hotel.jpg', width = 600 ,output_format = "JPEG")
-    st.write("---")
-
-    st.write(" The link for the previous conference is available  [here](https://conference-hammamet.streamlit.app).")
     st.write("---")
     # Call for Abstract 
     st.subheader(":blue[Call for Abstracts]")
@@ -69,7 +66,7 @@ def main():
     "Caroline Hillairet",
     "Chiheb Ben Hamouda",
     "Christa Cuchiero",
-    "Giulia Di Nunno",
+    "Giulia Bek Di Nunno",
     "Griselda Deelstra",
     "Jean Daniel Mukam",
     "Josef Teichmann",
@@ -86,6 +83,7 @@ def main():
     "Youssef Ouknine"
 ]
 
+
     Contributed_speakers = [
     "Ihsan Arharas",
     "Irene Ventura",
@@ -96,39 +94,37 @@ def main():
 ]
 
     # Sort the speakers alphabetically by last name
-    plenary_speakers_sorted = sorted(plenary_speakers, key=lambda name: name.split()[-1])
-    invited_speakers_sorted = sorted(invited_speakers, key=lambda name: name.split()[-1])
-    Contributed_speakers_sorted = sorted(Contributed_speakers, key=lambda name: name.split()[-1])
+    
     # Display Plenary Speakers
     st.subheader("List of confirmed Plenary speakers")
-    for i in range(0, len(plenary_speakers_sorted), 3):
+    for i in range(0, len(plenary_speakers), 3):
         cols = st.columns(3)
         for j, col in enumerate(cols):
-            if i + j < len(plenary_speakers_sorted):
+            if i + j < len(plenary_speakers):
                 with col:
-                    generate_names(plenary_speakers_sorted[i + j])
+                    generate_names(plenary_speakers[i + j])
     
     st.write("---")
     
     # Display Invited Speakers
     st.subheader(" List of confirmed Invited speakers")
-    for i in range(0, len(invited_speakers_sorted), 3):
+    for i in range(0, len(invited_speakers), 3):
         cols = st.columns(3)
         for j, col in enumerate(cols):
-            if i + j < len(invited_speakers_sorted):
+            if i + j < len(invited_speakers):
                 with col:
-                    generate_names(invited_speakers_sorted[i + j])
+                    generate_names(invited_speakers[i + j])
     
     st.write("---")
 
     # Display Invited Speakers
     st.subheader(" List of confirmed Invited speakers")
-    for i in range(0, len(Contributed_speakers_sorted), 3):
+    for i in range(0, len(Contributed_speakers), 3):
         cols = st.columns(3)
         for j, col in enumerate(cols):
-            if i + j < len(Contributed_speakers_sorted):
+            if i + j < len(Contributed_speakers):
                 with col:
-                    generate_names(Contributed_speakers_sorted[i + j])
+                    generate_names(Contributed_speakers[i + j])
     
     st.write("---")
 
@@ -157,19 +153,20 @@ def main():
 
     st.subheader(":blue[Organizers]")
     organizers = [
+    ("Nacira Agram", "KTH University"),
+    ("Saloua Mani Aouadi", "Tunis El Manar University"),
+    ("Olfa Draouil", "Tunis El Manar University"),
+    ("Giulia di Nunno", "University of Oslo"),
+    ("Martin Friesen", "Dublin City University"),
     ("Astrid Hilbert", "Linnaeus University"),
     ("Asma Khedher", "University of Amsterdam"),
     ("Barbara Rüdiger", "Bergische University Wuppertal"),
-    ("Bernt Øksendal", "University of Oslo"),
-    ("Giulia di Nunno", "University of Oslo"),
     ("Josef Teichmann", "ETH Zürich"),
-    ("Martin Friesen", "Dublin City University"),
-    ("Michèle Vanmaele", "Ghent University"),
-    ("Nacira Agram", "KTH University"),
     ("Nizar Touzi", "New York University"),
-    ("Olfa Draouil", "Tunis El Manar University"),
-    ("Saloua Mani Aouadi", "Tunis El Manar University"),
+    ("Michèle Vanmaele", "Ghent University"),
+    ("Bernt Øksendal", "University of Oslo"),
 ]
+
 
     for i in range(0, len(organizers), 3):
         row = organizers[i:i+3]
