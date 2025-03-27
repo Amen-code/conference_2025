@@ -38,7 +38,7 @@ def main():
     st.write("---")
     # Call for Abstract 
     st.subheader(":blue[Call for Abstracts]")
-    st.write("A call for abstract is open to propose a contributed talk or a poster. There are limited slots for contributed talks. The form is [here](https://forms.gle/FXaQ37w8x7CHxDL99).")
+    st.write("A call for abstract is open to propose a contributed talk or a poster. There are limited slots for contributed talks. The form is [here](docs.google.com/forms/d/e/1FAIpQLSfRBk6TETwAqfQGLcLCm3qCpUxUCN1INlY44g-A7nMTkxgqpw/viewform?usp=preview).")
     st.error("Deadline for submission is September 5th. You will be notified about your proposed talk/poster within September 15th.")
     
     #Program
@@ -131,8 +131,8 @@ def main():
 
     # Button to register (redirects to Google Form)
     st.subheader(":blue[Registration]")
-    st.write("The registration form is available [here](https://docs.google.com/forms/d/e/1FAIpQLScJtPavmI45WvgrrMSHVJUc6xAcEktuBd--JZ53DgQWjVBZXg/viewform).")
-    st.write("Arrival and departure form is available [here](https://docs.google.com/forms/d/e/1FAIpQLSdlT_ZsluYUIvS6xoM3ubXn7oDbvxRQudjvBJl6Iv6Yavubnw/viewform?usp=sf_link).")
+    st.write("The registration form is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfi8zQRjBNBuPNKnTtrvBpQn26SFmvNlMFlWcKjis4WrdR_Sg/viewform).")
+    st.write("Arrival and departure form is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfU-hmzh7cr8oq3HahdMjlBdcQNVykq-D3WmVHtGPNxUao13A/viewform).")
 
     st.error("Deadline for Registration is September 5th.")
     # URL for the International airport of Tunis-Carthage
