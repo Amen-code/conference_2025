@@ -79,7 +79,7 @@ def main():
     "Josef Teichmann",
     "Stefan Tappe",
     "Nizar Touzi",
-    "Michele Vanmaele",
+    "Michèle Vanmaele",
     "Stefania Ugolini"
 ]
 
@@ -157,7 +157,7 @@ def main():
     ("Nacira Agram", "KTH University"),
     ("Saloua Mani Aouadi", "Tunis El Manar University"),
     ("Olfa Draouil", "Tunis El Manar University"),
-    ("Giulia di Nunno", "University of Oslo"),
+    ("Giulia Di Nunno", "University of Oslo"),
     ("Martin Friesen", "Dublin City University"),
     ("Astrid Hilbert", "Linnaeus University"),
     ("Asma Khedher", "University of Amsterdam"),
