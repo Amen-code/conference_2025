@@ -58,17 +58,12 @@ def main():
 
     
     invited_speakers = [
-    "Nacira Agram",
     "Chiheb Ben Hamouda",
     "Luigi Borasi",
     "Christa Cuchiero",
     "Griselda Deelstra",
     "Giulia  Di Nunno",
-    "Olfa Draouil",
-    "Martin Friesen",
     "Caroline Hillairet",
-    "Astrid Hilbert",
-    "Asma Khedher",
     "Anis Matoussi",
     "Jean Daniel Mukam",
     "Bernt Oksendal",
@@ -76,10 +71,7 @@ def main():
     "Barbara Rudiger",
     "Wissal Sabagh",
     "Max Sauerbrey",
-    "Josef Teichmann",
     "Stefan Tappe",
-    "Nizar Touzi",
-    "Michèle Vanmaele",
     "Stefania Ugolini"
 ]
 
@@ -108,13 +100,13 @@ def main():
     st.write("---")
     
     # Display Invited Speakers
-    st.subheader(" List of confirmed Contributed speakers")
-    for i in range(0, len(Contributed_speakers), 3):
+    st.subheader(" List of confirmed invited speakers")
+    for i in range(0, len(invited_speakers), 3):
         cols = st.columns(3)
         for j, col in enumerate(cols):
-            if i + j < len(Contributed_speakers):
+            if i + j < len(invited_speakers):
                 with col:
-                    generate_names(Contributed_speakers[i + j])
+                    generate_names(invited_speakers[i + j])
     
     st.write("---")
 
