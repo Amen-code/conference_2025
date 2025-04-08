@@ -108,7 +108,7 @@ def main():
     st.write("---")
     
     # Display Invited Speakers
-    st.subheader(" List of confirmed Invited speakers")
+    st.subheader(" List of confirmed Contributed_speakers")
     for i in range(0, len(Contributed_speakers), 3):
         cols = st.columns(3)
         for j, col in enumerate(cols):
@@ -135,7 +135,25 @@ def main():
     hotel_url = "https://www.radissonhotels.com/en-us/hotels/radisson-blu-resort-hammamet"
 
     st.subheader(":blue[Fees]")
-    st.markdown(f"The conference is organised at the **[{hotel_name}]({hotel_url})**. The hotel provides all the necessary services for the event in a beautiful location. The local organisers have arranged some special rates for the days of the event for the registered participants: Full-board basis (night, breakfast, lunch, coffee breaks, dinner, transportation from Tunis airport to the hotel, excursion and conference dinner).")
+    st.markdown(f"""
+    The conference is organised at the **[{hotel_name}]({hotel_url})**.  
+    The hotel provides all the necessary services for the event in a beautiful location.
+    
+    The local organisers have arranged some special rates for the days of the event for the registered participants:  
+    **Full-board basis** includes:
+    - Night
+    - Breakfast
+    - Lunch
+    - Coffee breaks
+    - Dinner
+    - Transportation from Tunis airport to the hotel
+    - Excursion
+    - **Conference dinner**
+    
+    **Daily fees**:
+    - Participants (full pension + transfer + excursion + conference dinner): **130€**
+    - Accompanying persons: **100€**
+    """)
     
 
     st.subheader(":blue[Sponsors]")
