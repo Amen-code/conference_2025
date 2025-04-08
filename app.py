@@ -109,16 +109,14 @@ def main():
     
     # Display Invited Speakers
     st.subheader(" List of confirmed Invited speakers")
-    for i in range(0, len(invited_speakers), 3):
+    for i in range(0, len(Contributed_speakers), 3):
         cols = st.columns(3)
         for j, col in enumerate(cols):
-            if i + j < len(invited_speakers):
+            if i + j < len(Contributed_speakers):
                 with col:
-                    generate_names(invited_speakers[i + j])
+                    generate_names(Contributed_speakers[i + j])
     
     st.write("---")
-
-    
 
     # Button to register (redirects to Google Form)
     st.subheader(":blue[Registration]")
