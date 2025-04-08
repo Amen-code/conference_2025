@@ -108,7 +108,7 @@ def main():
     st.write("---")
     
     # Display Invited Speakers
-    st.subheader(" List of confirmed Contributed_speakers")
+    st.subheader(" List of confirmed Contributed speakers")
     for i in range(0, len(Contributed_speakers), 3):
         cols = st.columns(3)
         for j, col in enumerate(cols):
@@ -138,7 +138,7 @@ def main():
     st.markdown(f"""
     The conference is organised at the **[{hotel_name}]({hotel_url})**.  
     The hotel provides all the necessary services for the event in a beautiful location.
-    
+
     The local organisers have arranged some special rates for the days of the event for the registered participants:  
     **Full-board basis** includes:
     - Night
@@ -149,7 +149,7 @@ def main():
     - Transportation from Tunis airport to the hotel
     - Excursion
     - **Conference dinner**
-    
+
     **Daily fees**:
     - Participants (full pension + transfer + excursion + conference dinner): **130€**
     - Accompanying persons: **100€**
