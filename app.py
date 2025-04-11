@@ -130,7 +130,6 @@ def main():
 
     The local organisers have arranged some special rates for the days of the event for the registered participants:  
     **Full-board basis** includes:
-    - Night
     - Breakfast
     - Lunch
     - Coffee breaks
