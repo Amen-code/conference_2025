@@ -47,6 +47,7 @@ def main():
     # List of speakers
     plenary_speakers = [
     "Fred Espen Benth",
+    "Thilo Meyer Brandis",
     "Tahir Choulli",
     "Sebastian Kassing",
     "Abderrazek Karoui",
@@ -56,6 +57,7 @@ def main():
     "Antonis Papapantoleon"
 ]
 
+
     
     invited_speakers = [
     "Chiheb Ben Hamouda",
@@ -63,6 +65,7 @@ def main():
     "Christa Cuchiero",
     "Griselda Deelstra",
     "Caroline Hillairet",
+    "Drona Kandhai",
     "Anis Matoussi",
     "Jean Daniel Mukam",
     "Youssef Ouknine",
@@ -71,6 +74,7 @@ def main():
     "Stefan Tappe",
     "Stefania Ugolini"
 ]
+
 
 
 
