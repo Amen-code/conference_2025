@@ -1,21 +1,8 @@
-name: Keep Streamlit App Alive
-
-on:
-  schedule:
-    - cron: '0 */10 * * *'  # Runs every 10 hours
-  workflow_dispatch:
-
-jobs:
-  keep-alive:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Make empty commit
-        run: |
-          git config --global user.email "amenallah.zoghlami@etudiant-fst.utm.tn"
-          git config --global user.name "Amen-code"
-          git commit --allow-empty -m "Keep Streamlit app alive 🔄"
-          git push
+- name: Push empty commit to keep app alive
+  run: |
+    git config --global user.email "amenallah.zoghlami@etudiant-fst.utm.tn"
+    git config --global user.name "Amen-code"
+    git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/Amen-code/conference_2025.git
+    git add .
+    git commit -m "Keep Streamlit app alive 🔄" || echo "No changes to commit"
+    git push
