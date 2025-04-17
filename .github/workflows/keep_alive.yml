@@ -12,14 +12,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+
       - name: Push empty commit to keep app alive
         run: |
           git config --global user.email "amenallah.zoghlami@etudiant-fst.utm.tn"
           git config --global user.name "Amen-code"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/Amen-code/conference_2025.git
-          git add .
-          git commit -m "Keep Streamlit app alive 🔄" || echo "No changes to commit"
+          git commit --allow-empty -m "Keep Streamlit app alive 🔄"
           git push origin main
-
-      
