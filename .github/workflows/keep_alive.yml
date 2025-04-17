@@ -12,8 +12,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout
-        with:
-          persist-credentials: true
+        
       
       - name: Push empty commit to keep app alive
         run: |
