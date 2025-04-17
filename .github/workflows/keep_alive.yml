@@ -15,7 +15,7 @@ jobs:
 
       - name: Make empty commit
         run: |
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "Your GitHub Name"
+          git config --global user.email "amenallah.zoghlami@etudiant-fst.utm.tn"
+          git config --global user.name "Amen-code"
           git commit --allow-empty -m "Keep Streamlit app alive 🔄"
           git push
