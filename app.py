@@ -125,7 +125,7 @@ def main():
     st.subheader(":blue[Transport]")
     st.markdown("The best way to reach the conference venue for international participants is to fly to the [International airport of Tunis-Carthage]({}). Local transportation between the airport and the conference hotel is organized and included in the rates. Please fill the registration form above to secure the service.".format(airport_url))
 
-    hotel_name = "Radisson Blue Resort Thalasso, Hammamet"
+    hotel_name = "Radisson Blu Resort Thalasso, Hammamet"
     hotel_url = "https://www.radissonhotels.com/en-us/hotels/radisson-blu-resort-hammamet"
 
     st.subheader(":blue[Fees]")
