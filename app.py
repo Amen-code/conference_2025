@@ -15,7 +15,7 @@ def main():
     st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">', unsafe_allow_html=True)
     st.markdown("Time and place: <i class='fas fa-clock'></i> Oct. 20-Oct. 24, 2025, <i class='fas fa-map-marker-alt'></i> Radisson Blu Resort Thalasso, Hammamet, Tunisia", unsafe_allow_html=True)
     st.write("---")
-    st.write("The conference is an occasion to bring together researchers in the beautiful Hammamet to discuss recent developments in stochastics with applications to mathematical physics and finance. The link of the previous conference is available [here](https://conference-hammamet.streamlit.app).")
+    st.write("The conference is an occasion to bring together researchers in  beautiful Hammamet to discuss recent developments in stochastics with applications to mathematical physics and finance. The link of the previous conference is available [here](https://conference-hammamet.streamlit.app).")
     # Display conference name
     
     st.markdown("""
@@ -61,11 +61,14 @@ def main():
     
     invited_speakers = [
     "Chiheb Ben Hamouda",
+    "Alexandra Blessing",
+    "Jonas Blessing",
     "Luigi Borasi",
     "Christa Cuchiero",
     "Griselda Deelstra",
     "Martin Grothaus",
     "Caroline Hillairet",
+    "Saul Jacka",
     "Drona Kandhai",
     "Anis Matoussi",
     "Jean Daniel Mukam",
@@ -139,7 +142,7 @@ def main():
     - Lunch
     - Coffee breaks
     - Dinner
-    - Transportation from Tunis airport to the hotel
+    - Transportation from Tunis airport to the hotel and return
     - Excursion
     - **Conference dinner**
 
