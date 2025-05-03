@@ -50,7 +50,7 @@ def main():
     ("Thilo Meyer-Brandis", "Ludwig Maximilian University of Munich"),
     ("Tahir Choulli", "University of Alberta"),
     ("Abderrazek Karoui", "University of Carthage, Tunisia"),
-    ("Sebastian Kassing","Technische Universität Berlin "),
+    ("Sebastian Kassing","Technische Universität Berlin"),
     ("Michael Kupper", "University of Konstanz"),
     ("Sonia Mazzucchi", "University of Trento"),
     ("Ivan Nourdin", "University of Luxembourg"),
