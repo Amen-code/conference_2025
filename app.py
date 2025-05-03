@@ -38,47 +38,44 @@ def main():
     st.write("---")
     # Call for Abstract 
     st.subheader(":blue[Call for Abstracts]")
-    st.write("A call for abstract is open to propose a contributed talk or a poster. There are limited slots for contributed talks. The form is [here](https://docs.google.com/forms/d/e/1FAIpQLSfRBk6TETwAqfQGLcLCm3qCpUxUCN1INlY44g-A7nMTkxgqpw/viewform?usp=preview).")
-    st.error("Deadline for submission is September 5th. You will be notified about your proposed talk/poster within September 15th.")
+    st.write("A call for abstract is open to propose a contributed talk. There are limited slots for contributed talks. The form is [here](https://docs.google.com/forms/d/e/1FAIpQLSfRBk6TETwAqfQGLcLCm3qCpUxUCN1INlY44g-A7nMTkxgqpw/viewform?usp=preview). Poster presentations are also welcome and are not subject to any slot limitations.")
+    st.error("Deadline for submission is August 15th. You will be notified about your proposed talk within September 1st.")
     
     #Program
     st.subheader(":blue[Program]")
     st.write("\nA full list of speakers will be available together with the program. This includes:")
     # List of speakers
     plenary_speakers = [
-    "Fred Espen Benth",
-    "Thilo Meyer Brandis",
-    "Tahir Choulli",
-    "Sebastian Kassing",
-    "Abderrazek Karoui",
-    "Michael Kupper",
-    "Sonia Mazzucchi",
-    "Ivan Nourdin",
-    "Antonis Papapantoleon"
-]
+    ("Fred Espen Benth", "University of Oslo"),
+    ("Thilo Meyer-Brandis", "Ludwig Maximilian University of Munich"),
+    ("Tahir Choulli", "University of Alberta"),
+    ("Sebastian Kassing", "Technische Universität Berlin"),
+    ("Abderrazek Karoui", "University of Carthage, Tunisia"),
+    ("Michael Kupper", "University of Konstanz"),
+    ("Sonia Mazzucchi", "University of Trento"),
+    ("Ivan Nourdin", "University of Luxembourg"),
+    ("Antonis Papapantoleon", "TU Delft")
+    ]
 
-
-    
     invited_speakers = [
-    "Chiheb Ben Hamouda",
-    "Alexandra Blessing",
-    "Jonas Blessing",
-    "Luigi Borasi",
-    "Christa Cuchiero",
-    "Griselda Deelstra",
-    "Martin Grothaus",
-    "Caroline Hillairet",
-    "Saul Jacka",
-    "Drona Kandhai",
-    "Anis Matoussi",
-    "Jean Daniel Mukam",
-    "Youssef Ouknine",
-    "Wissal Sabagh",
-    "Max Sauerbrey",
-    "Stefan Tappe",
-    "Stefania Ugolini"
-]
-
+    ("Chiheb Ben Hammouda", "Utrecht University"),
+    ("Alexandra Blessing", "Bielefeld University"),
+    ("Jonas Blessing", "ETH Zurich"),
+    ("Luigi Borasi", "Bergische Universität Wuppertal"),
+    ("Christa Cuchiero", "University of Vienna"),
+    ("Griselda Deelstra", "Université Libre de Bruxelles"),
+    ("Martin Grothaus", "University of Kaiserslautern"),
+    ("Caroline Hillairet", "ENSAE Paris"),
+    ("Saul Jacka", "University of Warwick"),
+    ("Drona Kandhai", "University of Amsterdam"),
+    ("Anis Matoussi", "Le Mans University"),
+    ("Jean Daniel Mukam", "Bielefeld University"),
+    ("Youssef Ouknine", "Cadi Ayyad University"),
+    ("Wissal Sabbagh", "Le Mans University"),
+    ("Max Sauerbrey", "Max Planck Institute for Mathematics in the Sciences"),
+    ("Stefan Tappe", "University of Freiburg"),
+    ("Stefania Ugolini", "Università degli Studi, Milano")
+    ]
 
 
 
@@ -94,26 +91,43 @@ def main():
     # Sort the speakers alphabetically by last name
     
     # Display Plenary Speakers
+    # Display Plenary Speakers
     st.subheader("List of confirmed Plenary speakers")
     for i in range(0, len(plenary_speakers), 3):
-        cols = st.columns(3)
-        for j, col in enumerate(cols):
-            if i + j < len(plenary_speakers):
-                with col:
-                    generate_names(plenary_speakers[i + j])
-    
+        row = plenary_speakers[i:i+3]
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
+            if i < len(plenary_speakers):
+                generate_card(row[0][0], row[0][1])
+        with col2:
+            if i + 1 < len(plenary_speakers):
+                generate_card(row[1][0], row[1][1])
+        with col3:
+            if i + 2 < len(plenary_speakers):
+                generate_card(row[2][0], row[2][1])
+
     st.write("---")
-    
+
     # Display Invited Speakers
-    st.subheader(" List of confirmed invited speakers")
+    st.subheader("List of confirmed invited speakers")
     for i in range(0, len(invited_speakers), 3):
-        cols = st.columns(3)
-        for j, col in enumerate(cols):
-            if i + j < len(invited_speakers):
-                with col:
-                    generate_names(invited_speakers[i + j])
-    
+        row = invited_speakers[i:i+3]
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
+            if i < len(invited_speakers):
+                generate_card(row[0][0], row[0][1])
+        with col2:
+            if i + 1 < len(invited_speakers):
+                generate_card(row[1][0], row[1][1])
+        with col3:
+            if i + 2 < len(invited_speakers):
+                generate_card(row[2][0], row[2][1])
+
     st.write("---")
+
+
 
     # Button to register (redirects to Google Form)
     st.subheader(":blue[Registration]")
