@@ -58,27 +58,28 @@ def main():
     ]
 
     invited_speakers = [
-    ("Mohamed Ben Alaya"  ,"Rouen university"),
+    ("Mohamed Ben Alaya", "Rouen University"),
     ("Chiheb Ben Hammouda", "Utrecht University"),
     ("Alexandra Blessing", "Bielefeld University"),
     ("Jonas Blessing", "ETH Zurich"),
     ("Luigi Borasi", "Bergische Universität Wuppertal"),
     ("Christa Cuchiero", "University of Vienna"),
     ("Griselda Deelstra", "Université Libre de Bruxelles"),
-    ("Mhamed Gaigi" , "Tunis El Manar university" ),
+    ("Mhamed Gaigi", "Tunis El Manar University"),
     ("Martin Grothaus", "University of Kaiserslautern"),
     ("Caroline Hillairet", "ENSAE Paris"),
     ("Saul Jacka", "University of Warwick"),
     ("Drona Kandhai", "University of Amsterdam"),
     ("Anis Matoussi", "Le Mans University"),
-    ("Mohamed Mnif" ,"Tunis El Manar university"),
+    ("Mohamed Mnif", "Tunis El Manar University"),
     ("Jean Daniel Mukam", "Bielefeld University"),
     ("Youssef Ouknine", "Cadi Ayyad University"),
     ("Wissal Sabbagh", "Le Mans University"),
     ("Max Sauerbrey", "Max Planck Institute for Mathematics in the Sciences"),
     ("Stefan Tappe", "University of Freiburg"),
     ("Stefania Ugolini", "Università degli Studi, Milano")
-    ]
+]
+
 
 
 
