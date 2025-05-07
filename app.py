@@ -84,6 +84,8 @@ def main():
     ("Stefania Ugolini", "Università degli Studi, Milano")
     ]
 
+
+
     Contributed_speakers = [
     "Mariem Abdellatif",
     "Ihsan Arharas",
