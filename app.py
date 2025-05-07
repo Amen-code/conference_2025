@@ -66,22 +66,23 @@ def main():
     ("Christa Cuchiero", "University of Vienna"),
     ("Griselda Deelstra", "Université Libre de Bruxelles"),
     ("Mhamed Gaigi", "Tunis El Manar University"),
+    ("Soumaya Gheryani", "Tunis El Manar university"),
     ("Martin Grothaus", "University of Kaiserslautern"),
     ("Caroline Hillairet", "ENSAE Paris"),
     ("Saul Jacka", "University of Warwick"),
+    ("Souheyl Jendoubi", "University of Carthage"),
     ("Drona Kandhai", "University of Amsterdam"),
     ("Anis Matoussi", "Le Mans University"),
     ("Mohamed Mnif", "Tunis El Manar University"),
     ("Jean Daniel Mukam", "Bielefeld University"),
     ("Youssef Ouknine", "Cadi Ayyad University"),
+    ("Anis Rezgui", "University of Carthage"),
+    ("Naoufel Salhi", "University of Carthage"),
     ("Wissal Sabbagh", "Le Mans University"),
     ("Max Sauerbrey", "Max Planck Institute for Mathematics in the Sciences"),
     ("Stefan Tappe", "University of Freiburg"),
     ("Stefania Ugolini", "Università degli Studi, Milano")
-]
-
-
-
+    ]
 
     Contributed_speakers = [
     "Mariem Abdellatif",
