@@ -39,7 +39,7 @@ def main():
     # Call for Abstract 
     st.subheader(":blue[Call for Abstracts]")
     st.write("A call for abstract is open to propose a contributed talk. There are limited slots for contributed talks. The form is [here](https://docs.google.com/forms/d/e/1FAIpQLSfRBk6TETwAqfQGLcLCm3qCpUxUCN1INlY44g-A7nMTkxgqpw/viewform?usp=preview). Poster presentations are also welcome and are not subject to any slot limitations.")
-    st.error("Deadline for submission is August 15th. You will be notified about your proposed talk within September 1st.")
+    st.error("Deadline for submission is August 15th. Submissions for contributed talks will be notified in a rolling basis within 14days of submission.")
     
     #Program
     st.subheader(":blue[Program]")
@@ -59,6 +59,7 @@ def main():
 
     invited_speakers = [
     ("Mohamed Ben Alaya", "Rouen University"),
+    ("Wolfgang Bock", "Linnaeus University"),
     ("Chiheb Ben Hammouda", "Utrecht University"),
     ("Alexandra Blessing", "Bielefeld University"),
     ("Jonas Blessing", "ETH Zurich"),
@@ -76,6 +77,8 @@ def main():
     ("Mohamed Mnif", "Tunis El Manar University"),
     ("Jean Daniel Mukam", "Bielefeld University"),
     ("Youssef Ouknine", "Cadi Ayyad University"),
+    ("Mohamed Erraoui", "Chouaïb Doukkali University"),
+    ("Mohamed Essaky", "Cadi Ayyad University"),
     ("Anis Rezgui", "University of Carthage"),
     ("Naoufel Salhi", "University of Carthage"),
     ("Wissal Sabbagh", "Le Mans University"),
