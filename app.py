@@ -59,10 +59,10 @@ def main():
 
     invited_speakers = [
     ("Mohamed Ben Alaya", "Rouen University"),
-    ("Wolfgang Bock", "Linnaeus University"),
     ("Chiheb Ben Hammouda", "Utrecht University"),
     ("Alexandra Blessing", "Bielefeld University"),
     ("Jonas Blessing", "ETH Zurich"),
+    ("Wolfgang Bock", "Linnaeus University"),
     ("Luigi Borasi", "Bergische Universität Wuppertal"),
     ("Christa Cuchiero", "University of Vienna"),
     ("Griselda Deelstra", "Université Libre de Bruxelles"),
