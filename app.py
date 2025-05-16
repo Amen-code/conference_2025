@@ -60,7 +60,7 @@ def main():
     invited_speakers = [
     ("Mohamed Ben Alaya", "Rouen University"),
     ("Chiheb Ben Hammouda", "Utrecht University"),
-    ("Alexandra Blessing", "Bielefeld University"),
+    ("Alexandra Blessing", "University of Konstanz"),
     ("Jonas Blessing", "ETH Zurich"),
     ("Wolfgang Bock", "Linnaeus University"),
     ("Luigi Borasi", "Bergische Universität Wuppertal"),
@@ -75,7 +75,7 @@ def main():
     ("Drona Kandhai", "University of Amsterdam"),
     ("Anis Matoussi", "Le Mans University"),
     ("Mohamed Mnif", "Tunis El Manar University"),
-    ("Jean Daniel Mukam", "Bielefeld University"),
+    ("Jean Daniel Mukam", "Bergische Wuppertal University"),
     ("Youssef Ouknine", "Cadi Ayyad University"),
     ("Mohamed Erraoui", "Chouaïb Doukkali University"),
     ("Mohamed Essaky", "Cadi Ayyad University"),
