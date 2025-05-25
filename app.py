@@ -75,7 +75,7 @@ def main():
     ("Saul Jacka", "University of Warwick"),
     ("Souheyl Jendoubi", "University of Carthage"),
     ("Drona Kandhai", "University of Amsterdam"),
-    ("Mohammed Louriki ", "Cadi Ayyad University"),
+    ("Mohammed Louriki", "Cadi Ayyad University"),
     ("Anis Matoussi", "Le Mans University"),
     ("Mohamed Mnif", "Tunis El Manar University"),
     ("Jean Daniel Mukam", "Bergische Wuppertal University"),
