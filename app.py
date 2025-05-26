@@ -78,6 +78,7 @@ def main():
     ("Mohammed Louriki", "Cadi Ayyad University"),
     ("Anis Matoussi", "Le Mans University"),
     ("Mohamed Mnif", "Tunis El Manar University"),
+    ("Mohamed Mrad", "Univ Sorbonne Paris Nord"),
     ("Jean Daniel Mukam", "Bergische Wuppertal University"),
     ("Youssef Ouknine", "Cadi Ayyad University"),
     ("Andreas Petersson", "Linnaeus University"),
