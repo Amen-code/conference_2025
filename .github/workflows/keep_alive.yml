@@ -2,7 +2,7 @@ name: Keep Streamlit App Alive
 
 on:
   schedule:
-    - cron: '0 */10 * * *'  # Runs every 10 hours
+    - cron: '0 */10 * * *'  # every 10 hours
   workflow_dispatch:
 
 jobs:
@@ -13,11 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}  # ⬅️ this gives push access
 
-      - name: Push empty commit to keep app alive
+      - name: Create empty commit and push
         run: |
           git config --global user.email "amenallah.zoghlami@etudiant-fst.utm.tn"
           git config --global user.name "Amen-code"
-          git commit --allow-empty -m "Keep Streamlit app alive 🔄"
-          git push origin main
+          git commit --allow-empty -m "🔁 Keep Streamlit app alive"
+          git push
