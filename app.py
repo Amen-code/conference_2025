@@ -52,7 +52,7 @@ def main():
     ("Sebastian Kassing","Technische Universität Berlin"),
     ("Michael Kupper", "University of Konstanz"),
     ("Sonia Mazzucchi", "University of Trento"),
-    ("Ivan Nourdin", "University of Luxembourg"),
+    ("Ivan Nourdin", "University of Luxembourg")
     
     ]
 
@@ -60,6 +60,7 @@ def main():
     ("Mohamed Ben Alaya", "Rouen University"),
     ("Chiheb Ben Hammouda", "Utrecht University"),
     ("Alexandra Blessing", "University of Konstanz"),
+    
     ("Luigi Borasi", "Bergische Universität Wuppertal"),
     ("Christa Cuchiero", "University of Vienna"),
     ("Mohamed Erraoui", "Chouaïb Doukkali University"),
