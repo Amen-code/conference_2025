@@ -53,14 +53,13 @@ def main():
     ("Michael Kupper", "University of Konstanz"),
     ("Sonia Mazzucchi", "University of Trento"),
     ("Ivan Nourdin", "University of Luxembourg"),
-    ("Antonis Papapantoleon", "TU Delft")
+    
     ]
 
     invited_speakers = [
     ("Mohamed Ben Alaya", "Rouen University"),
     ("Chiheb Ben Hammouda", "Utrecht University"),
     ("Alexandra Blessing", "University of Konstanz"),
-    ("Jonas Blessing", "ETH Zurich"),
     ("Luigi Borasi", "Bergische Universität Wuppertal"),
     ("Christa Cuchiero", "University of Vienna"),
     ("Mohamed Erraoui", "Chouaïb Doukkali University"),
