@@ -53,7 +53,7 @@ def main():
     ("Michael Kupper", "University of Konstanz"),
     ("Sonia Mazzucchi", "University of Trento"),
     ("Ivan Nourdin", "University of Luxembourg"),
-    ("Emmanuel Lepinette","Paris Dauphine University"),
+    ("Emmanuel Lepinette","Paris Dauphine University")
     
     ]
 
