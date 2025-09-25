@@ -52,7 +52,8 @@ def main():
     ("Sebastian Kassing","Technische Universität Berlin"),
     ("Michael Kupper", "University of Konstanz"),
     ("Sonia Mazzucchi", "University of Trento"),
-    ("Ivan Nourdin", "University of Luxembourg")
+    ("Ivan Nourdin", "University of Luxembourg"),
+    ("Emmanuel Lepinette","Paris Dauphine University"),
     
     ]
 
@@ -60,7 +61,7 @@ def main():
     ("Mohamed Ben Alaya", "Rouen University"),
     ("Chiheb Ben Hammouda", "Utrecht University"),
     ("Alexandra Blessing", "University of Konstanz"),
-    
+    ("Eberhard Mayerhofer","Unversity of Limerick"),
     ("Luigi Borasi", "Bergische Universität Wuppertal"),
     ("Christa Cuchiero", "University of Vienna"),
     ("Mohamed Erraoui", "Chouaïb Doukkali University"),
@@ -68,7 +69,7 @@ def main():
     ("Mhamed Gaigi", "Tunis El Manar University"),
     ("Rachid Belfadli", "Cadi Ayyad University "),
     ("Soumaya Gheryani", "Tunis El Manar university"),
-    ("Emmanuel Lepinette", "University Paris-Dauphine"),
+    
     ("Martin Grothaus", "University of Kaiserslautern"),
     ("Caroline Hillairet", "ENSAE Paris"),
     ("Saul Jacka", "University of Warwick"),
