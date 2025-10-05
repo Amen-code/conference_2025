@@ -38,7 +38,7 @@ def main():
     st.write("---")
     # Call for Abstract 
     st.subheader(":blue[Call for Abstracts]")
-    st.write("A call for abstract is open to propose a contributed talk. There are limited slots for contributed talks. The form is [here](https://docs.google.com/forms/d/e/1FAIpQLSfRBk6TETwAqfQGLcLCm3qCpUxUCN1INlY44g-A7nMTkxgqpw/viewform?usp=preview). Poster presentations are also welcome and are not subject to any slot limitations.")
+    st.write("Submission of abstracts is closed.")
     st.error("Deadline for submission is August 15th. Submissions for contributed talks will be notified in a rolling basis within 14days of submission.")
     
     #Program
@@ -53,6 +53,8 @@ def main():
     ("Michael Kupper", "University of Konstanz"),
     ("Sonia Mazzucchi", "University of Trento"),
     ("Ivan Nourdin", "University of Luxembourg"),
+    ("Eberhard Mayerhofer","Unversity of Limerick"),
+
     ("Emmanuel Lepinette","Paris Dauphine University")
     
     ]
@@ -60,21 +62,17 @@ def main():
     invited_speakers = [
     ("Mohamed Ben Alaya", "Rouen University"),
     ("Chiheb Ben Hammouda", "Utrecht University"),
-    ("Eberhard Mayerhofer","Unversity of Limerick"),
     ("Luigi Borasi", "Bergische Universität Wuppertal"),
     ("Christa Cuchiero", "University of Vienna"),
     ("Mohamed Erraoui", "Chouaïb Doukkali University"),
     ("EL Hassan Essaky", "Cadi Ayyad University"),
     ("Mhamed Gaigi", "Tunis El Manar University"),
-    ("Rachid Belfadli", "Cadi Ayyad University "),
     ("Soumaya Gheryani", "Tunis El Manar university"),
     
     ("Martin Grothaus", "University of Kaiserslautern"),
     ("Caroline Hillairet", "ENSAE Paris"),
     ("Saul Jacka", "University of Warwick"),
     ("Souheyl Jendoubi", "University of Carthage"),
-    ("Drona Kandhai", "University of Amsterdam"),
-    ("Mohammed Louriki", "Cadi Ayyad University"),
     ("Anis Matoussi", "Le Mans University"),
     ("Mohamed Mnif", "Tunis El Manar University"),
     ("Mohamed Mrad", "Univ Sorbonne Paris Nord"),
@@ -143,7 +141,7 @@ def main():
 
     # Button to register (redirects to Google Form)
     st.subheader(":blue[Registration]")
-    st.write("The registration form is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfi8zQRjBNBuPNKnTtrvBpQn26SFmvNlMFlWcKjis4WrdR_Sg/viewform).")
+    
     st.write("Arrival and departure form is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfU-hmzh7cr8oq3HahdMjlBdcQNVykq-D3WmVHtGPNxUao13A/viewform?usp=preview).")
 
     st.error("Deadline for Registration is September 5th.")
