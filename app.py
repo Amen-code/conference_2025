@@ -62,6 +62,8 @@ def main():
     invited_speakers = [
     ("Mohamed Ben Alaya", "Rouen University"),
     ("Chiheb Ben Hammouda", "Utrecht University"),
+    ("Hani Abidi", "Esprit School of Business"),
+    ("Max Nendel", "University of Waterloo"),
     ("Luigi Borasi", "Bergische Universität Wuppertal"),
     ("Christa Cuchiero", "University of Vienna"),
     ("Mohamed Erraoui", "Chouaïb Doukkali University"),
