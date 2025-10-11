@@ -39,7 +39,7 @@ def main():
     # Call for Abstract 
     st.subheader(":blue[Call for Abstracts]")
     st.write("Submission of abstracts is closed.")
-    st.error("Deadline for submission is August 15th. Submissions for contributed talks will be notified in a rolling basis within 14days of submission.")
+   
     
     #Program
     st.subheader(":blue[Program]")
@@ -146,7 +146,7 @@ def main():
     
     st.write("Arrival and departure form is available [here](https://docs.google.com/forms/d/e/1FAIpQLSfU-hmzh7cr8oq3HahdMjlBdcQNVykq-D3WmVHtGPNxUao13A/viewform?usp=preview).")
 
-    st.error("Deadline for Registration is September 5th.")
+   
     # URL for the International airport of Tunis-Carthage
     airport_url = "https://www.tunis-airport.com"
 
@@ -177,6 +177,18 @@ def main():
     - Accompanying persons: **100€**
     """)
     
+    st.subheader(":blue[Excursion and Conference Dinner]")
+    st.markdown("""
+    We are organizing an excursion to the city of **Kairouan**.
+
+    The first Arab and Muslim city in North Africa, Kairouan has been a major center for the spread of Islam and the Arabic language in the Maghreb. Even today, the city holds a special place for Muslims in the region, especially during the Mouled, when devotees from all over Tunisia and other countries come to participate in the celebrations. 
+
+    With its medina and markets organized by guilds in the Oriental style, its mosques, and other religious buildings, Kairouan has been listed as a UNESCO World Heritage site since 1988. In 2009, it was declared the Capital of Islamic Culture by the Islamic World Educational, Scientific and Cultural Organization. The city is also renowned for its handcrafted wool carpets and its pastries, including *makrouds*.
+
+    The excursion will take place on **Wednesday**, followed by a **conference dinner** in the evening at **Hasdrubal hotel**.
+    """)
+    st.image("kairouen.jpg", width=600, output_format="JPEG")
+    st.write("---")
 
     st.subheader(":blue[Sponsors]")
     st.write("This event is organized by the collaboration of several universities and organizations. Financial support is also received from FWO Scientific Research Network ModSimFIE, DAAD- Deutscher Akademischer Austauschdienst with funds from the German Foreign Office and Swedish Research Council grants (2020-04697)")
